@@ -1,0 +1,105 @@
+
+:root{
+    --primary-color: blue;
+    --secondary-color: red;
+}
+
+/**body {
+
+}*/
+
+hr{
+    margin: 2rem 0rem;
+}
+
+container /
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/**.fluid-container {
+}*/
+
+.center-container{
+    max-width: 600px;
+    margin: auto;
+}
+
+/**links */
+
+.link {
+text-decoration: none;
+}
+
+.primary-link {
+ background-color:var(--primary-color); 
+ border-radius: 4px;
+ color: aliceblue;
+ padding: 4px;
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+    padding: 4px;
+}
+
+/**lists */
+.non-bullets-list{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/**nav */
+.navigation{
+  background-color: var(--primary-color);
+  color: white;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link{
+    color: white ;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+    padding: 1rem;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/** header */
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--secondary-color);
+}
+
+.hero .hero-heading-inverted{
+    color: var(--primary-color);
+}
+
