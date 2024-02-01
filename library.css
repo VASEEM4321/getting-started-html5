@@ -2,6 +2,7 @@
 :root{
     --primary-color: blue;
     --secondary-color: red;
+    --off-color: gray;
 }
 
 /**body {
@@ -97,5 +98,19 @@ text-decoration: none;
 .hero .hero-heading{
     padding-top: 1rem;
     color: var(--secondary-color);
+}
+
+/**section */
+
+.section{
+    padding: 2rem;
+}
+
+.section h1 {
+   text-align: center;
+}
+
+.off {
+    background-color:  var(--off-color); 
 }
 
