@@ -1,7 +1,9 @@
 
 :root{
     --primary-color: blue;
-    --secondary-color: light gray;
+    --secondary-color: gray;
+    --off-color: rgb(237, 229, 229);
+
 }
 
 
@@ -105,3 +107,16 @@ text-decoration: none;
     color: var(--primary-color);
 }
 
+.section{
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--off-color);
+    border-radius: 4px;
+}
+
+.off {
+    padding: 2rem;
+    text-align: center;
+    /* background-color: var(--off-color); */
+    border-radius: 4px;
+}
