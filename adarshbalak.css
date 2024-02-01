@@ -1,8 +1,9 @@
 
 :root{
     --primary-color: blue;
-    --secondary-color: red;
+    --secondary-color: light gray;
 }
+
 
 /**body {
 
@@ -97,6 +98,7 @@ text-decoration: none;
 .hero .hero-heading{
     padding-top: 1rem;
     color: var(--secondary-color);
+    text-align: center;
 }
 
 .hero .hero-heading-inverted{
