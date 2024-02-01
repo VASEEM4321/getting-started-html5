@@ -108,15 +108,37 @@ text-decoration: none;
 }
 
 .section{
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     background-color: var(--off-color);
     border-radius: 4px;
 }
 
 .off {
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     /* background-color: var(--off-color); */
     border-radius: 4px;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    border-top-right-radius: 1rem;
+   margin-top: 4px;
+}
+
+.footer .footer-header {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.footer .link {
+    color: white;
+    
+}
+
+.footer ul {
+    text-align: center;
+    padding: 2rem 1rem;
 }
